@@ -184,7 +184,7 @@ class ImageHandler {
             }
         }
         // Return the modified image
-        return image;
+        return image.jpeg({force:true});
     }
 
     /**
